@@ -1,0 +1,59 @@
+*{
+    
+}
+body{
+    margin-top: 200px;
+}
+#left{
+    float: left;
+    width: 20%;
+    
+    margin-left: 3%;
+}
+img{
+    margin-top: 200px;
+    height: 200px;
+    opacity: 0.3;
+}
+#right{
+    float: right;
+    width: 65%;
+    min-height: 700px;
+    margin-right: 12%;
+   text-align: center;
+}
+
+.n{ font-weight: 130;}
+.x,.y,.a,.b{
+    margin-top: 10px;
+    width:48px;    
+    border-radius: 5px;
+    border: none;
+    border: 1px solid blue;
+    
+    padding-left: 15px;
+  
+} 
+#trendType{
+    width:200px;
+}
+.x:hover ,.y:hover {
+    background-color:azure ;
+}
+#SBO,#trend{
+    font-size: 150%;
+}
+
+#separator{
+   
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	height:1px;
+}
+.container{
+    clear: both;
+    padding-top:  100px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
