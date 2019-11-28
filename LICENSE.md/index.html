@@ -1,0 +1,98 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="scrps.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+  <title>Amal Trend Line Project</title>
+    </head>
+<body onclick = mainFunction()> 
+<div class="containet">   
+  <div id="left">
+        <h1>Trend Line</h1><h3> </h3>
+
+
+    
+    
+          </br>
+    
+    <hr>
+    
+    <h3>Dane x i y</h3>
+    <button id="button" class="btn btn-primary btn-lg" onlick="duplicate()">+ dodaj</button></br></br></br>
+       
+    <input type="text" value="X" class="x" style="border:none;font-size: 150%;">
+    <input type="text" value="Y" class="x" style="border:none;font-size: 150%; "></html><br>
+        <input type="number" value="2" class="x" name="x">
+        <input type="number" value="23" class="y" name="y"></br>
+     
+    
+        <input type="number" value="10" class="x" name="x">
+        <input type="number" value="3" class="y" name="y"></br>
+    <div id="duplicater">
+        <input type="number" value="16" class="x" name="x">
+        <input type="number" value="8" class="y" name="y"></br>
+     </div>  
+
+
+
+
+
+
+
+    <script>
+        
+          document.getElementById('button').onclick = duplicate;
+          var i = 0;
+          var original = document.getElementById('duplicater');
+    </script>
+        
+
+   
+     
+  </div>
+
+  <div id="right">
+      <h2><b>Wykres</b></h2>
+     f(x)=
+          <select id="trendType">
+              <option value="linear">ax+b</option>
+              <option value="logarithmic" selected="selected">a*ln(x)+b</option>
+              <option value="exponential">a*e^x*b</option>
+          </select> <div id="trend"></div>
+      
+      
+      Sumaryczny błąd odchyleń wynosi <div id="SBO"><img src="img/bgimage.png"></div>
+    <div id="chart"></div>
+
+</div>
+</div>
+<div class="container">
+    <div class="top">
+            <div id="separator"></div>
+        <h3>Wykonali</h3>
+        Konrad Mączka n.IDX. 206612 && Kacper Morawski n.IDX. 206684
+    </div>
+   
+</div>
+    </body>
+
+<script>
+   
+     
+    
+    
+</script>
+
+
+</html>
